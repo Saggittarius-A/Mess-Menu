@@ -1,15 +1,3 @@
-// import React from 'react';
-// import './Button.css';
-// import { Link } from 'react-router-dom';
-
-// export function Button() {
-//   return (
-//     <Link to='sign-up'>
-//       <button className='btn'>Sign Up</button>
-//     </Link>
-//   );
-// }
-
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
@@ -35,7 +23,7 @@ export const Button = ({
 
   if(id==1)
   {return (
-    <Link to='/Student/' className='btn-mobile'>
+    <Link to='/' className='btn-mobile'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
@@ -49,7 +37,7 @@ export const Button = ({
   else if(id==2)
   {
     return (
-      <Link to='./MessMember' className='btn-mobile'>
+      <Link to='./' className='btn-mobile'>
         <button
           className={`btn ${checkButtonStyle} ${checkButtonSize}`}
           onClick={onClick}
